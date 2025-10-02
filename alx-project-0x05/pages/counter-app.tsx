@@ -1,4 +1,4 @@
-import Layout from '@/components/layouts/Layout';
+
 import { useState } from 'react';
 
 const CounterApp: React.FC = () => {
@@ -13,7 +13,7 @@ const CounterApp: React.FC = () => {
   };
 
   return (
-    <Layout>
+   
     <div className="min-h-screen bg-gradient-to-r from-yellow-400 to-pink-500 flex flex-col justify-center items-center text-white">
       {/* Title */}
       <h1 className="text-6xl font-extrabold mb-6">🤖 Fun Counter App 🎉</h1>
@@ -49,7 +49,6 @@ const CounterApp: React.FC = () => {
         Keep clicking, who knows what happens at 100? 😏
       </p>
     </div>
-    </Layout>
   );
 }
 
